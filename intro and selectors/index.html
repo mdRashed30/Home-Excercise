@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+  crossorigin="anonymous"></script>
+    <title>jQuery Crash course</title>
+  </head>
+  <style>
+    body {
+      font-size: 17px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      background: #98d8c1;
+      line-height: 1.5em;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 4px #000 solid;
+      margin-bottom: 10px;
+    }
+    #container {
+      width: 90%;
+      margin: auto;
+      padding: 10px;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>jQuery Crash course</h1>
+    </header>
+    <div id="container">
+      <h1 id="heading1">Heading One</h1>
+      <p id="para1">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
+        deserunt sit neque expedita sapiente veniam at tempore est delectus
+        provident.
+        <span> illum, perspiciatis quisquam obcaecati eaque </span>quibusdam
+        consequatur suscipit quas.</p>
+      </p>
+
+      <h1 id="heading2">Heading Two</h1>
+      <p id="para2">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
+        deserunt sit neque expedita sapiente veniam at tempore est delectus
+        provident.
+        <span> illum, perspiciatis quisquam obcaecati eaque </span>quibusdam
+        consequatur suscipit quas.</p>
+      </p>
+      <ul id="list">
+        <li>list items</li>
+        <li>list items</li>
+        <li>list items</li>
+        <li>list items</li>
+        <li>list items</li>
+        <li>list items</li>
+      </ul>
+      <input type="button" value="button 1"> 
+      <input type="submit" value="submit"> 
+      <input type="text"> 
+    </div>
+    <a href="http://google.com">Google</a>
+    <a href="http://facebook.com">facebook </a>
+    <a href="http://yahoo.com">Yahoo</a></div>
+    </div>
+    <script>
+//$("h1").hide();
+//$("h1#heading2").hide();
+//$("p span").hide()
+//$("p span").css("color", ("red"));
+//$('ul#list li:first ').css('font-size','25px');
+//$('ul#list li:last ').css('font-size','25px');
+//$(':button').hide();
+//$(':submit').hide();
+
+$('[href]').css('color', 'red');
+$('a[href="http://facebook.com"]').css('color', "blue");
+
+
+    </script>
+  </body>
+</html>
